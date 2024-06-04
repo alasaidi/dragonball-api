@@ -144,6 +144,41 @@ body {
   font-weight: 700;
   padding-top: 80px;
 }
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.paginationBtn {
+  background-color: rgb(233, 168, 4); /* Orange color */
+  border: 2px solid #cc6600; /* Dark orange border */
+  color: #ffffff; /* White text */
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50%; /* Round buttons */
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Drop shadow */
+}
+
+.paginationBtn:hover {
+  background-color: #ff8c00; /* Darker orange on hover */
+}
+
+#previous {
+  background-color: #0072bc; /* Blue color for Previous button */
+  border-color: #004c80; /* Darker blue border */
+}
+
+#previous:hover {
+  background-color: #0059b3; /* Darker blue on hover */
+}
 /* Additional styles for the grid layout */
 .container {
   display: grid;
