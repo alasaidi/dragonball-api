@@ -12,6 +12,11 @@
       <img src="./style/logo_dragonballapi.webp" alt="logo dragonball api" />
       <h1>The Dragon Ball API</h1>
     </div>
+    <div class="filter">
+      <input type="text" placeholder="Enter name here..." id="searchValue" />
+      <button class="filterBtn">Filter</button>
+      <button class="clearBtn">Clear Filter</button>
+    </div>
     <div class="container">
       <article class="character-card">
         <div class="image-container">
@@ -65,13 +70,12 @@
         </div>
       </article>
     </div>
-    <footer>
-      <div class="pagination">
-        <button class="paginationBtn" id="previous">Previous</button>
 
-        <button class="paginationBtn" id="next">Next</button>
-      </div>
-    </footer>
+    <div class="pagination">
+      <button class="paginationBtn" id="previous">Previous</button>
+      <button class="paginationBtn" id="next">Next</button>
+    </div>
+
     <script type="module" src="./src/init.js"></script>
   </body>
 </html>

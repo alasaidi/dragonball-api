@@ -2,9 +2,9 @@ import { characterStats } from "./character-stats.js";
 
 export const renderCharacter = (characters) => {
   const root = document.querySelector(".container");
-
   root.innerHTML = "";
-  const result = characters.items.map((character) => {
+  console.log(characters);
+  const result = characters.map((character) => {
     // create character card section
     const characterCard = document.createElement("article");
     characterCard.classList.add("character-card");
