@@ -1,6 +1,6 @@
 export const state = {
-  //   itemsToDisplay: [],
-  //   filter: "aab",
+  itemsToDisplay: [],
+  filter: "",
   pagination: {
     currentPage: 1,
     pageSize: 8,

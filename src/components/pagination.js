@@ -4,9 +4,7 @@ import { renderCharacter } from "../components/render-character.js";
 
 export const pagination = async () => {
   const response = await dragonBallResources();
-  const totalItems = Math.ceil(
-    response.meta.totalItems / state.pagination.pageSize,
-  );
+  const totalItems = Math.ceil(58 / state.pagination.pageSize);
   state.pagination.totalPages = totalItems;
   console.log(state.pagination.totalPages);
   renderCharacter(response);
