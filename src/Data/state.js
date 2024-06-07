@@ -1,5 +1,4 @@
 export const state = {
-  itemsToDisplay: [],
   filter: "",
   pagination: {
     currentPage: 1,
